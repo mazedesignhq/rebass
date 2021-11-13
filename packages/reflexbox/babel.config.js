@@ -8,7 +8,8 @@ module.exports = {
             original: '@emotion/styled',
             replacement: 'styled-components',
           }
-        ]
+        ],
+        ["styled-components", { "ssr": true }]
       ]
     }
   }
